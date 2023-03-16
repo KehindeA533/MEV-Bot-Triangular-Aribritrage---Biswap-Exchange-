@@ -1,0 +1,1560 @@
+[
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 15217178,
+    "id": "0xDA8ceb724A06819c0A5cDb4304ea0cB27F8304cF",
+    "token0Price": "0.998834605205090742",
+    "token1Price": "0.999165159829463824",
+    "token0": {
+      "id": "0x55d398326f99059fF775485246999027B3197955",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "symbol": "BUSD",
+      "name": "BUSD Token",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 34663680,
+    "id": "0x8840C6252e2e86e545deFb6da98B2a0E26d8C1BA",
+    "token0Price": "323.011301601691438077",
+    "token1Price": "0.003083438155911984",
+    "token0": {
+      "id": "0x55d398326f99059fF775485246999027B3197955",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 31292740,
+    "id": "0xaCAac9311b0096E04Dfe96b6D87dec867d3883Dc",
+    "token0Price": "0.003081774044425459",
+    "token1Price": "323.185067875266860215",
+    "token0": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "symbol": "BUSD",
+      "name": "BUSD Token",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 6937257,
+    "id": "0x1483767E665B3591677Fd49F724bf7430C18Bf83",
+    "token0Price": "0.998574208994114744",
+    "token1Price": "0.999425396960657874",
+    "token0": {
+      "id": "0x55d398326f99059fF775485246999027B3197955",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 8286161,
+    "id": "0x63b30de1A998e9E64FD58A21F68D323B9BcD8F85",
+    "token0Price": "0.000614114816821023",
+    "token1Price": "1621.217184855379109651",
+    "token0": {
+      "id": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "symbol": "ETH",
+      "name": "Ethereum Token",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0x55d398326f99059fF775485246999027B3197955",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 8801839,
+    "id": "0xa987f0b7098585c735cD943ee07544a84e923d1D",
+    "token0Price": "22608.6192231805475576",
+    "token1Price": "0.000043827916455838",
+    "token0": {
+      "id": "0x55d398326f99059fF775485246999027B3197955",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+      "symbol": "BTCB",
+      "name": "BTCB Token",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 26001617,
+    "id": "0x6216E04cd40DB2c6FBEd64f1B5830A98D3A91740",
+    "token0Price": "13.980915527620357259",
+    "token1Price": "0.071106913517631953",
+    "token0": {
+      "id": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "symbol": "ETH",
+      "name": "Ethereum Token",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+      "symbol": "BTCB",
+      "name": "BTCB Token",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 13669070,
+    "id": "0xC7e9d76ba11099AF3F330ff829c5F442d571e057",
+    "token0Price": "0.014184830253441074",
+    "token1Price": "69.980007355106020679",
+    "token0": {
+      "id": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+      "symbol": "BTCB",
+      "name": "BTCB Token",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 5953323,
+    "id": "0x2b30c317ceDFb554Ec525F85E79538D59970BEb0",
+    "token0Price": "0.210698024357255959",
+    "token1Price": "4.727161529981794042",
+    "token0": {
+      "id": "0x55d398326f99059fF775485246999027B3197955",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0x965F527D9159dCe6288a2219DB51fc6Eef120dD1",
+      "symbol": "BSW",
+      "name": "Biswap",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 11801550,
+    "id": "0x46492B26639Df0cda9b2769429845cb991591E0A",
+    "token0Price": "1531.334124730771348869",
+    "token1Price": "0.000650380152432947",
+    "token0": {
+      "id": "0x965F527D9159dCe6288a2219DB51fc6Eef120dD1",
+      "symbol": "BSW",
+      "name": "Biswap",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 18757505,
+    "id": "0x5bf6941f029424674bb93A43b79fc46bF4A67c21",
+    "token0Price": "0.199022318061435605",
+    "token1Price": "5.00344508588660135",
+    "token0": {
+      "id": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "symbol": "ETH",
+      "name": "Ethereum Token",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 567961,
+    "id": "0x3d94d03eb9ea2D4726886aB8Ac9fc0F18355Fd13",
+    "token0Price": "74.17755938825078386",
+    "token1Price": "0.013411822249630104",
+    "token0": {
+      "id": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+      "symbol": "Cake",
+      "name": "PancakeSwap Token",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 1543467,
+    "id": "0xe0caab61EE7A12d03B268E1f6A56537aC1b61D13",
+    "token0Price": "0.998884705363801985",
+    "token1Price": "0.999112718774156108",
+    "token0": {
+      "id": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+      "symbol": "DAI",
+      "name": "Dai Token",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0x55d398326f99059fF775485246999027B3197955",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 1652387,
+    "id": "0xe7fbB8bd95322618e925affd84D7eC0E32DC0e57",
+    "token0Price": "48.551830095978290122",
+    "token1Price": "0.020506049859594809",
+    "token0": {
+      "id": "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402",
+      "symbol": "DOT",
+      "name": "Polkadot Token",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 2654521,
+    "id": "0x153dC2eBcB551799b13D4E6Ff84fC34C7AEDf241",
+    "token0Price": "0.021005474520824038",
+    "token1Price": "47.404605296350372715",
+    "token0": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 2323475,
+    "id": "0x8860922Eb2795aB0D57363653Dd7EBf18D7c0A42",
+    "token0Price": "825.835391137410869729",
+    "token1Price": "0.001205720248628606",
+    "token0": {
+      "id": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
+      "symbol": "ADA",
+      "name": "Cardano Token",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 1190736,
+    "id": "0x412b607f4cBE9CaE77C6F720A701CD60fa0EBD3f",
+    "token0Price": "0.010412804618619534",
+    "token1Price": "95.636290054947922554",
+    "token0": {
+      "id": "0x4338665CBB7B2485A8855A139b75D5e34AB0DB94",
+      "symbol": "LTC",
+      "name": "Litecoin Token",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0x55d398326f99059fF775485246999027B3197955",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 1842240,
+    "id": "0x5dc30Bb8D7F02eFEf28f7E637D17Aea13Fa96906",
+    "token0Price": "809.915599685424585698",
+    "token1Price": "0.001229330065752094",
+    "token0": {
+      "id": "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE",
+      "symbol": "XRP",
+      "name": "XRP Token",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 1405628,
+    "id": "0x1eF315fa08e0E1B116D97E3dFE0aF292Ed8b7f02",
+    "token0Price": "3514.38638188",
+    "token1Price": "0.000283277314831222",
+    "token0": {
+      "id": "0xbA2aE424d960c26247Dd6c32edC70B295c744C43",
+      "symbol": "DOGE",
+      "name": "Dogecoin",
+      "decimals": 8
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 2895985,
+    "id": "0x16Fe21c91c426E603977b1C6EcD59Fc510a518C2",
+    "token0Price": "0.021398173936816097",
+    "token1Price": "46.535578511549107447",
+    "token0": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD",
+      "symbol": "LINK",
+      "name": "ChainLink Token",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 1167988,
+    "id": "0x52A499333A7837a72a9750849285E0bb8552dE5A",
+    "token0Price": "0.190769515026926005",
+    "token1Price": "5.220925204581877707",
+    "token0": {
+      "id": "0x0D8Ce2A99Bb6e3B7Db580eD848240e4a0F9aE153",
+      "symbol": "FIL",
+      "name": "Filecoin",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0x55d398326f99059fF775485246999027B3197955",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 444735,
+    "id": "0x753C734Dfe05aF28A732C033e26Ea6D369e07662",
+    "token0Price": "0.017678255600510784",
+    "token1Price": "56.257343401290014168",
+    "token0": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63",
+      "symbol": "XVS",
+      "name": "Venus",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 1700681,
+    "id": "0xF1A12EC907B3d87b6De7a9A5C3820566c621f68B",
+    "token0Price": "207.451305133172327514",
+    "token1Price": "0.004799315962536331",
+    "token0": {
+      "id": "0x4B0F1812e5Df2A09796481Ff14017e6005508003",
+      "symbol": "TWT",
+      "name": "Trust Wallet",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 109299,
+    "id": "0x48aB3b9D41186b1c9f190B5a7ED23bA697Abc7AD",
+    "token0Price": "38966407.40089120965444021",
+    "token1Price": "0.000000019092296395",
+    "token0": {
+      "id": "0xa9c41A46a6B3531d28d5c32F6633dd2fF05dFB90",
+      "symbol": "WEX",
+      "name": "WaultSwap",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 315039,
+    "id": "0xedc3f1edB8811d2aE4aD6666D77521ae817F2ef1",
+    "token0Price": "1041.639798101538155229",
+    "token1Price": "0.000954222518755574",
+    "token0": {
+      "id": "0x47BEAd2563dCBf3bF2c9407fEa4dC236fAbA485A",
+      "symbol": "SXP",
+      "name": "Swipe",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 205024,
+    "id": "0x16da0c473214717383b7Ef5cdE71c723584f8ac4",
+    "token0Price": "5105.001951765763208006",
+    "token1Price": "0.000194795806112168",
+    "token0": {
+      "id": "0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B",
+      "symbol": "TRX",
+      "name": "TRON",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 109564,
+    "id": "0xDE5e03bC7014D65aF8F9fe8F11FDb5B5b9116F7b",
+    "token0Price": "912.601865452148509639",
+    "token1Price": "0.001084991583001556",
+    "token0": {
+      "id": "0x9f589e3eabe42ebC94A44727b3f3531C0c877809",
+      "symbol": "TKO",
+      "name": "Tokocrypto Token",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 425808,
+    "id": "0x857f601Df3Eac2f25E25dBd2B33D94bCd6F47d1C",
+    "token0Price": "0.001681192344124862",
+    "token1Price": "591.538988784017255047",
+    "token0": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xD41FDb03Ba84762dD66a0af1a6C8540FF1ba5dfb",
+      "symbol": "SFP",
+      "name": "SafePal Token",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 296517,
+    "id": "0x88d483697F8E3FC8f5674F322d3a59ce786aCcD5",
+    "token0Price": "0.069350535057825824",
+    "token1Price": "14.361857219415974163",
+    "token0": {
+      "id": "0x965F527D9159dCe6288a2219DB51fc6Eef120dD1",
+      "symbol": "BSW",
+      "name": "Biswap",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xBb46693eBbEa1aC2070E59B4D043b47e2e095f86",
+      "symbol": "BFG",
+      "name": "BFG Token",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 1453551,
+    "id": "0xe0625903565bfCDd738b7AB9b156CB14DC9977b3",
+    "token0Price": "0.014667940856925539",
+    "token1Price": "67.903369783074704164",
+    "token0": {
+      "id": "0x55d398326f99059fF775485246999027B3197955",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xBb46693eBbEa1aC2070E59B4D043b47e2e095f86",
+      "symbol": "BFG",
+      "name": "BFG Token",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 121892,
+    "id": "0x8410c28A6e4074a148F9205712C6b54d12F7282C",
+    "token0Price": "3.56360603378566581",
+    "token1Price": "0.279487437459045684",
+    "token0": {
+      "id": "0x8F0528cE5eF7B51152A59745bEfDD91D97091d2F",
+      "symbol": "ALPACA",
+      "name": "AlpacaToken",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "symbol": "BUSD",
+      "name": "BUSD Token",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 98014,
+    "id": "0x76e1B3B2B15A4Ff61aB3E245d6b98ae808DEe6e1",
+    "token0Price": "577.85999241201917626",
+    "token1Price": "0.001712265750675691",
+    "token0": {
+      "id": "0x3203c9E46cA618C8C1cE5dC67e7e9D75f5da2377",
+      "symbol": "MBOX",
+      "name": "Mobox",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 99865,
+    "id": "0x4c2139aBcaF1981d4AB0Df2dfD6Ee78422e0E76F",
+    "token0Price": "0.000867503661953475",
+    "token1Price": "1129.475281729185069735",
+    "token0": {
+      "id": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "symbol": "ETH",
+      "name": "Ethereum Token",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0x947950BcC74888a40Ffa2593C5798F11Fc9124C4",
+      "symbol": "SUSHI",
+      "name": "SushiToken",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 294382,
+    "id": "0xeb80530DbBdf489e7a20175Ceaa80d4253062DD4",
+    "token0Price": "1.479034896884362372",
+    "token1Price": "0.669748180587998238",
+    "token0": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xCa3F508B8e4Dd382eE878A314789373D80A5190A",
+      "symbol": "BIFI",
+      "name": "beefy.finance",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 205255,
+    "id": "0xe41F46AEF7594Cc43FC57edf2b0fDC377900BC4E",
+    "token0Price": "11279.006921650243",
+    "token1Price": "0.000088028924675705",
+    "token0": {
+      "id": "0xb86AbCb37C3A4B64f74f59301AFF131a1BEcC787",
+      "symbol": "ZIL",
+      "name": "Zilliqa",
+      "decimals": 12
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 384306,
+    "id": "0x06Cd679121Ec37B0A2FD673D4976B09d81791856",
+    "token0Price": "322.526719153854208938",
+    "token1Price": "0.003082926189914124",
+    "token0": {
+      "id": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 66540,
+    "id": "0x19058558Bbc66C2Dd97c5cA8a189d350A34e4423",
+    "token0Price": "29.340602856291102618",
+    "token1Price": "0.033608501965518617",
+    "token0": {
+      "id": "0x715D400F88C167884bbCc41C5FeA407ed4D2f8A0",
+      "symbol": "AXS",
+      "name": "Axie Infinity Shard",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 217589,
+    "id": "0xf9FAdb9222848Cde36c0C06cF88776DC41937083",
+    "token0Price": "0.000027346196333885",
+    "token1Price": "36313.85210497516095989",
+    "token0": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xd15C444F1199Ae72795eba15E8C1db44E47abF62",
+      "symbol": "TENFI",
+      "name": "TEN Finance",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 55418,
+    "id": "0xca7172132824954667AAD12600450097D04D7b29",
+    "token0Price": "15435.607849344085738001",
+    "token1Price": "0.000063779056458519",
+    "token0": {
+      "id": "0x8263CD1601FE73C066bf49cc09841f35348e3be0",
+      "symbol": "ALU",
+      "name": "Altura",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 723901,
+    "id": "0x49859419c83465eeeEdD7b1D30dB99CE58C88Ec3",
+    "token0Price": "22139869.026092842935599196",
+    "token1Price": "0.000000044946732671",
+    "token0": {
+      "id": "0x2859e4544C4bB03966803b044A93563Bd2D0DD4D",
+      "symbol": "SHIB",
+      "name": "SHIBA INU",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 678602,
+    "id": "0x7bfCd2bda87fd2312A946BD9b68f5Acc6E21595a",
+    "token0Price": "576.642574061195064711",
+    "token1Price": "0.001725592638220724",
+    "token0": {
+      "id": "0xAD29AbB318791D579433D831ed122aFeAf29dcfe",
+      "symbol": "FTM",
+      "name": "Fantom",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 1675134,
+    "id": "0x3B09e13Ca9189FBD6a196cfE5FbD477C885afBf3",
+    "token0Price": "0.003669224229681547",
+    "token1Price": "271.342898139651308871",
+    "token0": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
+      "symbol": "MATIC",
+      "name": "Matic Token",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 79596,
+    "id": "0x9C3d4Fb14D3A021aee4Fd763506B1F71d509Dc90",
+    "token0Price": "1236415.099323176252925435",
+    "token1Price": "0.000000799051617237",
+    "token0": {
+      "id": "0x12BB890508c125661E03b09EC06E404bc9289040",
+      "symbol": "RACA",
+      "name": "Radio Caca V2",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 331797,
+    "id": "0x3530F7d8D55c93D778e17cbd30bf9eB07b884f35",
+    "token0Price": "13.920066247618129318",
+    "token1Price": "0.071476656968050127",
+    "token0": {
+      "id": "0x570A5D26f7765Ecb712C0924E4De545B89fD43dF",
+      "symbol": "SOL",
+      "name": "SOLANA",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 625814,
+    "id": "0xe0E9FDd2F0BcdBcaF55661B6Fa1efc0Ce181504b",
+    "token0Price": "136.162795802637901636",
+    "token1Price": "0.007307154011974136",
+    "token0": {
+      "id": "0x1Fa4a73a3F0133f0025378af00236f3aBDEE5D63",
+      "symbol": "NEAR",
+      "name": "NEAR Protocol",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 566571,
+    "id": "0x2f3899fFB9FdCf635132F7bb94c1a3A0F906cc6f",
+    "token0Price": "16.21636561574158009",
+    "token1Price": "0.061344971263185904",
+    "token0": {
+      "id": "0x1CE0c2827e2eF14D5C4f29a091d735A204794041",
+      "symbol": "AVAX",
+      "name": "Avalanche",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 194925,
+    "id": "0x99E338D7524887e93E6f24582AaB9EE9845e1353",
+    "token0Price": "0.00097990844581361",
+    "token1Price": "1013.048074483573084902",
+    "token0": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xc7981767f644C7F8e483DAbDc413e8a371b83079",
+      "symbol": "LIQ",
+      "name": "Liquidus",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 196483,
+    "id": "0xa34E97d80b76315665687E36c0E8b7f6a611685F",
+    "token0Price": "1.018545211263656753",
+    "token1Price": "0.971477361704135867",
+    "token0": {
+      "id": "0xa184088a740c695E156F91f5cC086a06bb78b827",
+      "symbol": "AUTO",
+      "name": "AUTOv2",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 4162610,
+    "id": "0x4F00ADEED60FCba76e58a5d067b6A4b9Daf8e30f",
+    "token0Price": "2974086.256277114882292725",
+    "token1Price": "0.00000032217063267",
+    "token0": {
+      "id": "0x7dDEE176F665cD201F93eEDE625770E2fD911990",
+      "symbol": "GALA",
+      "name": "pTokens GALA",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 201975,
+    "id": "0x7683f8349376F297138D3082e236F0E34aF1D1c3",
+    "token0Price": "298.754610840578367513",
+    "token1Price": "0.003323069958025062",
+    "token0": {
+      "id": "0x56b6fB708fC5732DEC1Afc8D8556423A2EDcCbD6",
+      "symbol": "EOS",
+      "name": "EOS Token",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 533803,
+    "id": "0x5a36E9659F94F27e4526DDf6Dd8f0c3B3386D7F3",
+    "token0Price": "22.563905056075836436",
+    "token1Price": "0.044085254199560806",
+    "token0": {
+      "id": "0x0Eb3a705fc54725037CC9e008bDede697f62F335",
+      "symbol": "ATOM",
+      "name": "Cosmos Token",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 123896,
+    "id": "0xe73fe11863e4C3714EAFDee832a0987b33651f27",
+    "token0Price": "12341.617815827569601017",
+    "token1Price": "0.000080491342644209",
+    "token0": {
+      "id": "0x03fF0ff224f904be3118461335064bB48Df47938",
+      "symbol": "ONE",
+      "name": "Harmony ONE",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 363153,
+    "id": "0x923dD5668A0F373B714f8D230425ed7799c5d63D",
+    "token0Price": "2.274330235282593202",
+    "token1Price": "0.437924986",
+    "token0": {
+      "id": "0x55d398326f99059fF775485246999027B3197955",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0x76A797A59Ba2C17726896976B7B3747BfD1d220f",
+      "symbol": "TONCOIN",
+      "name": "Wrapped TON Coin",
+      "decimals": 9
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 207692,
+    "id": "0xADBfE34e35EDb3D31F4Bd1AF5a513f4C57CDc5e9",
+    "token0Price": "0.000000101822580122",
+    "token1Price": "9751363.973306776",
+    "token0": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xfb5B838b6cfEEdC2873aB27866079AC55363D37E",
+      "symbol": "FLOKI",
+      "name": "FLOKI",
+      "decimals": 9
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 722466,
+    "id": "0x1a4f4d0d183f885D05A14a6Dabfba643dA39559A",
+    "token0Price": "3.673382257480331567",
+    "token1Price": "0.27113988352194951",
+    "token0": {
+      "id": "0x4803Ac6b79F9582F69c4fa23c72cb76dD1E46d8d",
+      "symbol": "TMT",
+      "name": "TopManager Token",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "symbol": "BUSD",
+      "name": "BUSD Token",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 104495,
+    "id": "0x4b0BB5eea1b204a881a978E89d86498e9478B86B",
+    "token0Price": "118125.723069329386988161",
+    "token1Price": "0.000008379610427716",
+    "token0": {
+      "id": "0x9789dF6753B7F813A1C55ed20eCF83571DfDe428",
+      "symbol": "ULAND",
+      "name": "ULAND TOKEN",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 132037,
+    "id": "0xB4c88543Bd95617Fb61F3d031B8E8E19aF33201E",
+    "token0Price": "0.003825394175561367",
+    "token1Price": "260.362418772510593245",
+    "token0": {
+      "id": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "symbol": "BUSD",
+      "name": "BUSD Token",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xF700D4c708C2be1463E355F337603183D20E0808",
+      "symbol": "GQ",
+      "name": "Galactic Quadrant",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 256136,
+    "id": "0xE01eDA650632986B2E5B8167F629D7C7c759D4FD",
+    "token0Price": "76238.107460628091876339",
+    "token1Price": "0.000013030813679208",
+    "token0": {
+      "id": "0x5f588EfAf8eB57e3837486e834fC5a4E07768D98",
+      "symbol": "bMVL",
+      "name": "Binance Wrapped MVL",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 52965,
+    "id": "0xc2619B94d60223db62991a1DB937D723A2Ed6217",
+    "token0Price": "56.545721133603607724",
+    "token1Price": "0.017504899934387841",
+    "token0": {
+      "id": "0x0b079B33B6e72311c6BE245F9f660CC385029fc3",
+      "symbol": "APE",
+      "name": "ApeCoin",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 175460,
+    "id": "0xeC6158b246EED756f54505571ed29749929019Dd",
+    "token0Price": "1.92635832",
+    "token1Price": "0.517030872202674791",
+    "token0": {
+      "id": "0x3019BF2a2eF8040C242C9a4c5c4BD4C81678b2A1",
+      "symbol": "GMT",
+      "name": "Green Metaverse Token",
+      "decimals": 8
+    },
+    "token1": {
+      "id": "0x55d398326f99059fF775485246999027B3197955",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 1041675,
+    "id": "0x1Cba970a6E06d4BcC0c4717BE677d1A8AA0211DA",
+    "token0Price": "14.316925460896571275",
+    "token1Price": "0.069521915903032336",
+    "token0": {
+      "id": "0x3d6545b08693daE087E957cb1180ee38B9e3c25E",
+      "symbol": "ETC",
+      "name": "Ethereum Classic",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 107627,
+    "id": "0x5843d070F37ef8579CC3903B486DE1FDA80904D0",
+    "token0Price": "4.071346",
+    "token1Price": "0.244631865453380258",
+    "token0": {
+      "id": "0x23CE9e926048273eF83be0A3A8Ba9Cb6D45cd978",
+      "symbol": "DAR",
+      "name": "Dalarnia",
+      "decimals": 6
+    },
+    "token1": {
+      "id": "0x55d398326f99059fF775485246999027B3197955",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 130850,
+    "id": "0x84123de7279Ee0F745631B8769993C6A61e29515",
+    "token0Price": "112.243617166610142756",
+    "token1Price": "0.008873454797630795",
+    "token0": {
+      "id": "0xd15C444F1199Ae72795eba15E8C1db44E47abF62",
+      "symbol": "TENFI",
+      "name": "TEN Finance",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "symbol": "BUSD",
+      "name": "BUSD Token",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 52912,
+    "id": "0x69f60c87AEcdb037A44cbaD67eD06464432521b6",
+    "token0Price": "0.724613442918736662",
+    "token1Price": "1.374486703554123466",
+    "token0": {
+      "id": "0x55d398326f99059fF775485246999027B3197955",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0x67b725d7e342d7B611fa85e859Df9697D9378B2e",
+      "symbol": "SAND",
+      "name": "The Sandbox",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 80575,
+    "id": "0xb2Bdc08028872309c034862BC2f76dc61267b088",
+    "token0Price": "0.006923264589792547",
+    "token1Price": "142.703131773267599593",
+    "token0": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xe4Cc45Bb5DBDA06dB6183E8bf016569f40497Aa5",
+      "symbol": "GAL",
+      "name": "Project Galaxy",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 3436600,
+    "id": "0x22D954CA5540caB869AdA9bd9d339CDE3a9313b3",
+    "token0Price": "0.869973870321575235",
+    "token1Price": "1.14486513925478642",
+    "token0": {
+      "id": "0x3A806A3315E35b3F5F46111ADb6E2BAF4B14A70D",
+      "symbol": "LIBERA",
+      "name": "Libera.Financial",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "symbol": "BUSD",
+      "name": "BUSD Token",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 92310,
+    "id": "0x53CCcB1a635A1EE84fC95fCAb35D7567FC7A80e7",
+    "token0Price": "54.594603093004647128",
+    "token1Price": "0.01824343388848138",
+    "token0": {
+      "id": "0x16b8dBa442cc9fAa40d0Dd53f698087546CCF096",
+      "symbol": "EXOS",
+      "name": "EXOS",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "symbol": "BUSD",
+      "name": "BUSD Token",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 164446,
+    "id": "0xFd9B7Fd5AAd32aa431fe19bEB1d73013aabbe9C6",
+    "token0Price": "48.583193436170996413",
+    "token1Price": "0.020500744880605534",
+    "token0": {
+      "id": "0x40C8225329Bd3e28A043B029E0D07a5344d2C27C",
+      "symbol": "AOG",
+      "name": "AgeOfGods",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "symbol": "BUSD",
+      "name": "BUSD Token",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 85997,
+    "id": "0xbC8F1701748B99BD9EF3456FED534c9437b59EEa",
+    "token0Price": "111796.163631621049904522",
+    "token1Price": "0.000008842261161097",
+    "token0": {
+      "id": "0x475bFaa1848591ae0E6aB69600f48d828f61a80E",
+      "symbol": "DOME",
+      "name": "Everdome",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 88359,
+    "id": "0x910dE0B7075BF654Dc588e3c10DEd4FE1C6bBE87",
+    "token0Price": "2.42519313072058672",
+    "token1Price": "0.40646977823340455",
+    "token0": {
+      "id": "0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf",
+      "symbol": "BCH",
+      "name": "Bitcoin Cash Token",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 252469,
+    "id": "0xfC2B263EE88bd43ccb9982780bE11b128c0bD893",
+    "token0Price": "0.262650684252806242",
+    "token1Price": "3.779802490580904681",
+    "token0": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xfb6115445Bff7b52FeB98650C87f44907E58f802",
+      "symbol": "AAVE",
+      "name": "Aave Token",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 144333,
+    "id": "0x6882A3CDdA124FfE6587328fc0f473A2A7Fd973c",
+    "token0Price": "13587.404853122893097755",
+    "token1Price": "0.000073138539432305",
+    "token0": {
+      "id": "0x6FDcdfef7c496407cCb0cEC90f9C5Aaa1Cc8D888",
+      "symbol": "VET",
+      "name": "VeChain",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 342342,
+    "id": "0x46c2b98471144537AcFF010A42675De31cd56Dd9",
+    "token0Price": "0.136124735608026646",
+    "token1Price": "7.301707518169314087",
+    "token0": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbF7c81FFF98BbE61B40Ed186e4AfD6DDd01337fe",
+      "symbol": "EGLD",
+      "name": "Elrond",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 2613795,
+    "id": "0xd822E1737b1180F72368B2a9EB2de22805B67E34",
+    "token0Price": "0.004410436554928021",
+    "token1Price": "225.772496528541704247",
+    "token0": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xCE1b3e5087e8215876aF976032382dd338cF8401",
+      "symbol": "THOREUM",
+      "name": "Thoreumv4 - Thoreum.AI",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 84396,
+    "id": "0xd0222e8e50A2e20780AA43CDF330cbdDcBF1Fd91",
+    "token0Price": "1701.584678603394671188",
+    "token1Price": "0.000583086129360151",
+    "token0": {
+      "id": "0x7c56D81EcB5E1d287a1E22B89b01348f07bE3541",
+      "symbol": "1MT",
+      "name": "1move",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 192261,
+    "id": "0x67b07ec7C083C13a977132daD242422A69Fbb494",
+    "token0Price": "226.531901639522362036",
+    "token1Price": "0.004389276346921663",
+    "token0": {
+      "id": "0x012a6A39eeC345A0Ea2B994B17875E721d17eE45",
+      "symbol": "1RT",
+      "name": "1move",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 65836,
+    "id": "0xd9C921BF0c494e04d0AdE5f37D093135C9c77D20",
+    "token0Price": "1487.349502879632902113",
+    "token1Price": "0.000666354798108867",
+    "token0": {
+      "id": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B",
+      "symbol": "WOO",
+      "name": "Wootrade Network",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 134233,
+    "id": "0xa099F0D90Eb17283Ae7d302d0a6ebb0CaCab39DF",
+    "token0Price": "1135.282422643688742068",
+    "token1Price": "0.00087482621111923",
+    "token0": {
+      "id": "0x101d82428437127bF1608F699CD651e6Abf9766E",
+      "symbol": "BAT",
+      "name": "Basic Attention Token",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 1601445,
+    "id": "0x2b702b4E676B51f98c6B4aF1b2caFD6A9FC2a3e0",
+    "token0Price": "0.045756299865989501",
+    "token1Price": "21.810603819224723649",
+    "token0": {
+      "id": "0xa045E37a0D1dd3A45fefb8803D22457abc0A728a",
+      "symbol": "GHNY",
+      "name": "Grizzly Honey",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "symbol": "BUSD",
+      "name": "BUSD Token",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 250398,
+    "id": "0x0745B0FcEB49F3edeC370b03415F1EcFf570378C",
+    "token0Price": "0.000000000004850422",
+    "token1Price": "204859053897.561834935",
+    "token0": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xD74b782E05AA25c50e7330Af541d46E18f36661C",
+      "symbol": "QUACK",
+      "name": "RichQUACK.com",
+      "decimals": 9
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 220657,
+    "id": "0x6dEd872fC82968d7B194e471Bbeb3103451a6422",
+    "token0Price": "58.715995923407872191",
+    "token1Price": "0.016962921493414502",
+    "token0": {
+      "id": "0x522d0F9F3eFF479A5B256BB1C1108F47b8e1A153",
+      "symbol": "IGUP",
+      "name": "IGUP Token",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "symbol": "BUSD",
+      "name": "BUSD Token",
+      "decimals": 18
+    }
+  },
+  {
+    "exchange": "Biswap",
+    "pairTotalLiquity": 102866,
+    "id": "0xa2F0e218c32966205db4482D3F5561e5897D78c1",
+    "token0Price": "0.000084425087366852",
+    "token1Price": "11746.778362397410259001",
+    "token0": {
+      "id": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18
+    },
+    "token1": {
+      "id": "0xf307910A4c7bbc79691fD374889b36d8531B08e3",
+      "symbol": "ANKR",
+      "name": "Ankr",
+      "decimals": 18
+    }
+  }
+]
