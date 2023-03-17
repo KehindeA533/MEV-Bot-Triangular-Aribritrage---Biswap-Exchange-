@@ -1,9 +1,9 @@
-const { addressFactory, addressRouter } = require("./AddressList")
-const { erc20ABI, factoryABI, pairABI, routerABI } = require("./AbiList")
-const { getTotalLiquityPrice } = require("./getTotalLiquityPrice")
-const { ethers } = require("hardhat")
-const fs = require("fs")
-require("dotenv").config()
+const { addressFactory, addressRouter } = require('./AddressList')
+const { erc20ABI, factoryABI, pairABI, routerABI } = require('./AbiList')
+const { getTotalLiquityPrice } = require('./getTotalLiquityPrice')
+const { ethers } = require('hardhat')
+const fs = require('fs')
+require('dotenv').config()
 
 /*//////////////////////////////////////////////////////////////
                           Read File
@@ -13,58 +13,47 @@ require("dotenv").config()
 const MAINNET_RPC_URL = process.env.MAINNET_RPC_URL
 //Provider
 const provider = new ethers.providers.JsonRpcProvider(MAINNET_RPC_URL)
-//console.log(provider) /// CHECK ///
 
 const contractFactory = new ethers.Contract(
   addressFactory,
   factoryABI,
   provider
 )
-// console.log(contractFactory) /// CHECK ///
+// console.log(contractFactory)
 
 async function getTokenPairData() {
-  console.log("Collecting Pair Data...")
+  console.log('Collecting Pair Data...')
   let pairsInfo = []
   const getTotalPairs = await contractFactory.allPairsLength()
-  const length = getTotalPairs.toNumber() // ********
+  const length = getTotalPairs.toNumber()
 
   /*//////////////////////////////////////////////////////////////
                       Loop through all Pairs
 //////////////////////////////////////////////////////////////*/
   for (let i = 0; i < length; i++) {
     console.log(i)
-    const getPairContractAddress = await contractFactory.allPairs(i) //Address of Individual Pair Address **
-    const pairContractAddress = getPairContractAddress //Address of Individual Pair Address **
+    const getPairContractAddress = await contractFactory.allPairs(i)
+    const pairContractAddress = getPairContractAddress
 
-    // console.log(getPairs) //Address of Individual Pair Address /// CHECK ///
+    // console.log(getPairs) //Address of Individual Pair Address
 
     const pairContract = new ethers.Contract(
       pairContractAddress,
       pairABI,
       provider
     )
-    // console.log(pairContract) /// CHECK ///
+    // console.log(pairContract)
 
     /*//////////////////////////////////////////////////////////////
                       Get Pair Data
 //////////////////////////////////////////////////////////////*/
     const getPairDecimals = await pairContract.decimals()
-    const getToken0Address = await pairContract.token0() // ***
-    const getToken1Address = await pairContract.token1() // ***
+    const getToken0Address = await pairContract.token0()
+    const getToken1Address = await pairContract.token1()
     const getReserves = await pairContract.getReserves()
-    const getReserves0 = getReserves[0] //BigNumber || getReserves is a function that returns the current liquidity of both tokens last liquidity event.
-    const getReserves1 = getReserves[1] //BigNumber
-    // const getkLast = await pairContract.kLast() //BigNumber
-    // const getPrice0CumulativeLast = await pairContract.price0CumulativeLast() //BigNumber || priceCumulativeLast are indeed the latest prices of their respective tokens in BNB.
-    // const getPrice1CumulativeLast = await pairContract.price1CumulativeLast() //BigNumber
+    const getReserves0 = getReserves[0]
+    const getReserves1 = getReserves[1]
 
-    // console.log(getToken0Address, getToken1Address)                   /// CHECK ///
-    // console.log(getPrice0CumulativeLast, getPrice1CumulativeLast)    |
-    // console.log(getkLast)                                           |
-    // console.log(getReserves0, getReserves1)                        |
-    // console.log(getPairDecimals)                                  |
-
-    // *need the price of bnb to convert to usd
     /*//////////////////////////////////////////////////////////////
                       format BigNumber Data to BNB 
 //////////////////////////////////////////////////////////////*/
@@ -78,22 +67,6 @@ async function getTokenPairData() {
       getReserves1.toString(),
       getPairDecimals
     )
-    // console.log('reserves1 ' + reserves1)
-
-    // const kLast = ethers.utils.formatUnits(getkLast.toString(), getPairDecimals)
-    // console.log(kLast)
-
-    // const price0CumulativeLast = ethers.utils.formatUnits(
-    //   getPrice0CumulativeLast.toString(),
-    //   getPairDecimals
-    // )
-    // console.log('price0CumulativeLast ' + price0CumulativeLast)
-
-    // const price1CumulativeLast = ethers.utils.formatUnits(
-    //   getPrice1CumulativeLast.toString(),
-    //   getPairDecimals
-    // )
-    // console.log('price1CumulativeLast ' + price1CumulativeLast)
 
     let tokenDecimals = []
     let tokenName = []
@@ -101,7 +74,7 @@ async function getTokenPairData() {
 
     const tokenAdress = [getToken0Address, getToken1Address]
     for (let i = 0; i < tokenAdress.length; i++) {
-      // console.log(tokenAdress[i]) /// CHECK ///
+      // console.log(tokenAdress[i])
       const tokenContract = new ethers.Contract(
         tokenAdress[i],
         erc20ABI,
@@ -116,14 +89,14 @@ async function getTokenPairData() {
       tokenSymbol.push(getTokenSymbol)
     }
 
-    // console.log(tokenDecimals) /// CHECK /// ***
-    // console.log(tokenName) /// CHECK /// ***
-    // console.log(tokenSymbol) /// CHECK /// ***
+    // console.log(tokenDecimals)  ***
+    // console.log(tokenName)  ***
+    // console.log(tokenSymbol)  ***
 
     /*//////////////////////////////////////////////////////////////
                       Getting Token Swap Prices
 //////////////////////////////////////////////////////////////*/
-    const amount = "1" //Adjustables
+    const amount = '1' //Adjustables
     if (reserves0 > 0 && reserves1 > 0) {
       /*//////////////////////////////////////////////////////////////
                       Token 0 Value as Token 1
@@ -151,7 +124,7 @@ async function getTokenPairData() {
         amountOut0[1].toString(),
         tokenDecimals[1]
       )
-      // console.log(token0Price) //***
+      // console.log(token0Price)
 
       /*//////////////////////////////////////////////////////////////
                       Token 1 Value as Token 0
@@ -172,7 +145,7 @@ async function getTokenPairData() {
         amountOut1[1].toString(),
         tokenDecimals[0]
       )
-      // console.log(token1Price) // ***
+      // console.log(token1Price)
 
       /*//////////////////////////////////////////////////////////////
                       Get Pair liquidity Pair
@@ -186,7 +159,6 @@ async function getTokenPairData() {
       /*//////////////////////////////////////////////////////////////
                           Object Pairs
       //////////////////////////////////////////////////////////////*/
-      //* Note to self i mad a mistake with token prices and as a quick fixes i need to invert the token prices
       pairs = {
         pairTotalLiquity: totalLiquity,
         id: getPairContractAddress,
@@ -209,7 +181,7 @@ async function getTokenPairData() {
         pairsInfo.push(pairs)
       }
       if (i % 240 == 0) {
-        console.log("sleeping...")
+        console.log('sleeping...')
         await new Promise((r) => setTimeout(r, 60000))
       }
     }
@@ -220,11 +192,11 @@ async function getTokenPairData() {
                       Write to JSON File
 //////////////////////////////////////////////////////////////*/
   const jsonPairsInfo = JSON.stringify(pairsInfo)
-  fs.writeFile("getPairInfo.json", jsonPairsInfo, "utf8", (err) => {
+  fs.writeFile('getPairInfo.json', jsonPairsInfo, 'utf8', (err) => {
     if (err) {
-      console.log("Error writing file", err)
+      console.log('Error writing file', err)
     } else {
-      console.log("Successfully wrote file")
+      console.log('Successfully wrote file')
     }
   })
 }

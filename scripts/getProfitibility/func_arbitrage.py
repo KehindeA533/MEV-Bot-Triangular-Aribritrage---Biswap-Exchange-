@@ -1,6 +1,3 @@
-# Structuring trading pair groups
-# Structure trading pair groups
-
 def structure_trading_pair(pairs, limit):
 
     num = 1

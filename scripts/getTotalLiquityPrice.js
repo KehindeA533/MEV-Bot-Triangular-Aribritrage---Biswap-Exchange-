@@ -9,9 +9,6 @@ async function getTotalLiquityPrice(pairContractAddress) {
     return pg.innerText
   })
 
-  //screenshot
-  //await page.screenshot({ path: "100.png" });
-
   data = data.split(' ', 1)
   data = data[0].split('$')
   data = data[1]

@@ -1,21 +1,21 @@
-const { addressRouter } = require("./AddressList")
-const { erc20ABI, pairABI, routerABI } = require("./AbiList")
-const { ethers } = require("hardhat")
-const fs = require("fs")
-require("dotenv").config()
+const { addressRouter } = require('./AddressList')
+const { erc20ABI, pairABI, routerABI } = require('./AbiList')
+const { ethers } = require('hardhat')
+const fs = require('fs')
+require('dotenv').config()
 
 /*//////////////////////////////////////////////////////////////   
                           Read File
 //////////////////////////////////////////////////////////////*/
 function getFile(fPath) {
-  const fs = require("fs")
+  const fs = require('fs')
 
   try {
-    const data = fs.readFileSync(fPath, "utf8")
+    const data = fs.readFileSync(fPath, 'utf8')
     return data
   } catch (err) {
     console.log(err)
-    console.log("Error in GetFile")
+    console.log('Error in GetFile')
   }
 }
 
@@ -27,7 +27,6 @@ async function getPrice(factory, amtIn, tradeDirection) {
   const MAINNET_RPC_URL = process.env.MAINNET_RPC_URL
   const provider = new ethers.providers.JsonRpcProvider(MAINNET_RPC_URL)
 
-  // const address = factory //Why??
   //Get Pool Token Information
   const poolContract = new ethers.Contract(factory, pairABI, provider)
   let token0Address = await poolContract.token0()
@@ -46,7 +45,7 @@ async function getPrice(factory, amtIn, tradeDirection) {
     let tokenName = await contract.name()
     let tokenDecimals = await contract.decimals()
     let tokenInfo = {
-      id: "token" + i,
+      id: 'token' + i,
       tokenSymbol: tokenSymbol,
       tokenName: tokenName,
       tokenDecimals: tokenDecimals,
@@ -56,12 +55,12 @@ async function getPrice(factory, amtIn, tradeDirection) {
     // console.log(tokenInfo)
   }
   // Identify the correct token to input as A and also B respectibely
-  let inputTokenA = ""
+  let inputTokenA = ''
   let inputDecimalsA = 0
-  let inputTokenB = ""
+  let inputTokenB = ''
   let inputDecimalsB = 0
 
-  if (tradeDirection == "baseToQuote") {
+  if (tradeDirection == 'baseToQuote') {
     inputTokenA = tokenInfoArray[0].tokenAddress
     inputDecimalsA = tokenInfoArray[0].tokenDecimals
     inputSymbolA = tokenInfoArray[0].tokenSymbol
@@ -70,7 +69,7 @@ async function getPrice(factory, amtIn, tradeDirection) {
     inputSymbolB = tokenInfoArray[1].tokenSymbol
   }
 
-  if (tradeDirection == "quoteToBase") {
+  if (tradeDirection == 'quoteToBase') {
     inputTokenA = tokenInfoArray[1].tokenAddress
     inputDecimalsA = tokenInfoArray[1].tokenDecimals
     inputSymbolA = tokenInfoArray[1].tokenSymbol
@@ -97,7 +96,7 @@ async function getPrice(factory, amtIn, tradeDirection) {
     // console.log(quotedAmountOut.toString())
   } catch (err) {
     console.log(err)
-    console.log("Error in quotedAmountOut")
+    console.log('Error in quotedAmountOut')
     return 0
   }
   //Format Output
@@ -111,15 +110,16 @@ async function getPrice(factory, amtIn, tradeDirection) {
                           Get Depth
 //////////////////////////////////////////////////////////////*/
 async function getDepth(amountIn, limit) {
+  // limit for testing purposes
   //Get JSON Surface Rate
-  console.log("Reading surface rate information...")
+  console.log('Reading surface rate information...')
   let fileInfo = getFile(
-    "C:/Users/Mr. Bushido/Desktop/Courses/BlockChain Work/flashloans/BiswapV1/getSurfaceRate.json"
+    'C:/Users/Mr. Bushido/Desktop/Courses/BlockChain Work/flashloans/BiswapV1/getProfitibility.json'
   )
   // console.log(fileInfo)
   let fileJsonArray = JSON.parse(fileInfo)
   let maxLimit = fileJsonArray.length
-  let fileJsonArrayLimit = fileJsonArray.slice(0, maxLimit) // Adjustable
+  let fileJsonArrayLimit = fileJsonArray.slice(0, maxLimit)
   // console.log(fileJsonArrayLimit)
 
   for (let i = 0; i < maxLimit; i++) {
@@ -146,7 +146,7 @@ async function getDepth(amountIn, limit) {
 
     //Trade 2
     if (acquiredCoinT1 == 0) {
-      return console.log("Error")
+      return console.log('Error')
     }
     // console.log('Checking trade 2 acquired coin..')
     let acquiredCoinT2 = await getPrice(
@@ -159,7 +159,7 @@ async function getDepth(amountIn, limit) {
 
     //Trade 3
     if (acquiredCoinT2 == 0) {
-      return console.log("Error")
+      return console.log('Error')
     }
     // console.log('Checking trade 3 acquired coin..')
     let acquiredCoinT3 = await getPrice(
@@ -170,30 +170,6 @@ async function getDepth(amountIn, limit) {
     // console.log(acquiredCoinT3.OuputAmount, acquiredCoinT3.inputSymbolB)
     console.log(swap1, swap2, swap3, amountIn, acquiredCoinT3)
   }
-
-  // return
 }
 
 getDepth((amount = 1), (limit = 1))
-
-/*//////////////////////////////////////////////////////////////   
-                                                                        Get Depth
-                                              //////////////////////////////////////////////////////////////*/
-// 01/26/23
-// combined Py with js {
-//   figure out how to loop through smart data
-//   organize data
-//   sort into tri arg
-//   calulate arg
-//   make list
-// }
-
-// //flashloan
-// dydx flashloan
-
-// //Flashbot
-// flashbot
-
-// //Automating AmountIn
-// calculate Liquidity
-// **Figure out relationship between coin price, liquidity and amountIn

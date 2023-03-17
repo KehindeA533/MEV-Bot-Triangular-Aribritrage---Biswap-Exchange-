@@ -37,7 +37,7 @@ def step_0():
 
         # Save to JSON file
         if len(surface_rates_list) > 0:
-            with open("getSurfaceRate.json", "w") as fp:
+            with open("getProfitibility.json", "w") as fp:
                 json.dump(surface_rates_list, fp)
                 print("File saved.")
         else:
